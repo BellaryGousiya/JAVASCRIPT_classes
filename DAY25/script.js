@@ -13,13 +13,13 @@ plusBtn.addEventListener("click",()=>{
 
 minusBtn.addEventListener("click",(e)=>{
      if(count>0) count--;
-     holder.textContent=count;    
+     holder.textContent=count;
 });
 
 container.addEventListener("click",(e)=>{
     console.log("You Clicked : " + e.target);
     console.log("The Tag name : " +e.target.tagName); 
-    console.log("The Tag id : " +e.target.id);  
+    console.log("The Tag id : " +e.target.id);
     console.log("The Content is: "+e.target.textContent);
     
 });

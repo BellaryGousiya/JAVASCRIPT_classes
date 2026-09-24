@@ -68,8 +68,8 @@ console.log(name4[0]);
 let name5 = "JAVASCRIPT";
 let year = 2025;
 console.log("I am leraning "+ name5 +" in the year "+year);
-console.log(`I am learning 
+console.log(`I am learning
     ${name5} in the year ${year}`);
 
-console.log(name5.length-1);
-console.log(name5[name5.length-1]); 
+console.log(name5.length);
+console.log(name5[name5.length-1]);

@@ -67,7 +67,7 @@ console.log(String(undefined));
 console.log(String([1,2,3]));
 console.log(String({}));
 
-console.log((123).toString());
+console.log([1,2,3].toString());
 console.log(null.toString());
 
 
